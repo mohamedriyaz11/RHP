@@ -1,6 +1,6 @@
 import java.util.*;
 
-class SubstringString {
+class Substring {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 import java.util.*;
 
-class LongestCommonSubsequence {
+class Subsequence {
 
     public static void main(String[] args) {
 
