@@ -15,7 +15,6 @@ int solve(){
         my[i]=(my[i-1]+(y[i]-'0'))%10;
     }
     if(mx[r-1]!=my[c-1]){
-        cout<<"-1"<<endl;
         return -1;
     }
     int f[r+1][c+1];
@@ -44,6 +43,6 @@ int main(){
     cin>>n;
     for(int i=0;i<n;i++){
         int ans=solve();
-        cout<<ans;
+        cout<<ans<<endl;
     }
 }
