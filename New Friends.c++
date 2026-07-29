@@ -29,7 +29,7 @@ int main(){
         edge[i]=x;
         join(ldr,x,y);
     }
-    vector<int>g(n+1,0),e(n+1,0);
+    vector<long long>g(n+1,0),e(n+1,0);
     for(int i=1;i<=n;i++){
         g[find(ldr,i)]++;
     }
